@@ -10,6 +10,7 @@ import HeaderLogo from "./components/HeaderLogo";
 
 import Home from "./components/Home";
 import Products from "./components/Products";
+import LoginPage from "./components/LoginPage"
 
 function App() {
   return (
@@ -18,13 +19,19 @@ function App() {
         <Container>
           <HeaderLogo />
         </Container>
-        <Navigator />
+        <div className="mt-4">
+          <Navigator />
+        </div>
 
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/products" component={Products} />
+          <Route path="/loginpage" component={LoginPage} />
         </Switch>
-        <FooterOwner />
+        <div className="mt-5">
+          <FooterOwner />
+        </div>
+
         <Footer />
       </Router>
     </div>

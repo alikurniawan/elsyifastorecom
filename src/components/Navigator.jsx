@@ -6,6 +6,9 @@ class Navigator extends Component {
   constructor() {
     super();
   }
+  loginHandler = () => {
+    window.open("/loginpage");
+  };
   render() {
     return (
       <>
@@ -76,17 +79,18 @@ class Navigator extends Component {
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
-                <input
+                {/* <input
                   class="form-control mr-sm-2"
                   type="search"
                   placeholder="Search"
                   aria-label="Search"
-                />
+                /> */}
                 <button
                   class="btn btn-outline-success my-2 my-sm-0"
                   type="submit"
+                  onClick={this.loginHandler}
                 >
-                  Search
+                  Login
                 </button>
               </form>
             </div>

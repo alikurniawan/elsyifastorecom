@@ -7,7 +7,7 @@ class HeaderLogo extends Component {
       <>
         <div className="row">
           <div className="col-8">
-            <h1 className="" style={{ fontFamily: "Kaushan Script" }}>
+            <h1 className="" style={{ fontSize: "50px" ,fontFamily: "Kaushan Script" }}>
               Elsyifa Store
             </h1>
           </div>
