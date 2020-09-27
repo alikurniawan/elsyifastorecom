@@ -10,7 +10,8 @@ import HeaderLogo from "./components/HeaderLogo";
 
 import Home from "./components/Home";
 import Products from "./components/Products";
-import LoginPage from "./components/LoginPage"
+import LoginPage from "./components/LoginPage";
+import About from "./components/About";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/products" component={Products} />
           <Route path="/loginpage" component={LoginPage} />
+          <Route path="/about" component={About} />
         </Switch>
         <div className="mt-5">
           <FooterOwner />
