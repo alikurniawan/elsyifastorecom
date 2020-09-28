@@ -6,9 +6,7 @@ class Navigator extends Component {
   constructor() {
     super();
   }
-  loginHandler = () => {
-    window.open("/loginpage");
-  };
+
   render() {
     return (
       <>
@@ -85,13 +83,16 @@ class Navigator extends Component {
                   placeholder="Search"
                   aria-label="Search"
                 /> */}
-                <button
-                  class="btn btn-outline-success my-2 my-sm-0"
-                  type="submit"
-                  onClick={this.loginHandler}
-                >
-                  Login
-                </button>
+                <Link to="/loginPage">
+                  <button
+                    hidden
+                    disabled
+                    class="btn btn-outline-success my-2 my-sm-0"
+                    type="submit"
+                  >
+                    Login
+                  </button>
+                </Link>
               </form>
             </div>
           </Container>

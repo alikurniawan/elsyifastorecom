@@ -13,6 +13,7 @@ import Products from "./components/Products";
 import LoginPage from "./components/LoginPage";
 import About from "./components/About";
 
+
 function App() {
   return (
     <div className="app">
@@ -29,6 +30,7 @@ function App() {
           <Route path="/products" component={Products} />
           <Route path="/loginpage" component={LoginPage} />
           <Route path="/about" component={About} />
+          
         </Switch>
         <div className="mt-5">
           <FooterOwner />
