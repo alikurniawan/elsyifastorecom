@@ -8,6 +8,7 @@ import mdsbb03 from "./Images/bb03.png";
 import mdsbk01 from "./Images/bk01.png";
 import mdsbk02 from "./Images/bk02.png";
 import mdsbk03 from "./Images/bk03.png";
+import mdsbb04 from "./Images/bb04.png";
 
 class Products extends Component {
   constructor(props) {
@@ -63,6 +64,14 @@ class Products extends Component {
           Ukuran: "250 ml",
           Harga: "Rp. 60,000,-",
           Deskripsi: "Madu Manis Sumbawa Botol Kecil",
+        },
+        {
+          Image: `${mdsbb04}`,
+          KodeBarang: "MDS-BK03",
+          NamaBarang: "Madu Hutan",
+          Ukuran: "760 ml",
+          Harga: "Rp. 210,000,-",
+          Deskripsi: "Madu Hutan Sumbawa Botol Besar",
         },
       ],
     };

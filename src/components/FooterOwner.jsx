@@ -29,7 +29,7 @@ class FooterOwner extends Component {
                       Elsyifa Store
                     </h1>
                   </Card.Header>
-                  <Card.Content style={{color: "white"}}>
+                  <Card.Content style={{ color: "white" }}>
                     Alamat : Gang Sindoro 4 no. 955 Rt 4 Rw 5 Kec.Gombong Kab.
                     Kabupaten Prov. Jawa Tengah
                   </Card.Content>
@@ -58,8 +58,11 @@ class FooterOwner extends Component {
               <br />
               <Icon name="whatsapp" size="big" color="yellow" />
               <text style={{ color: "white", fontSize: "20px" }}>
-                Harry Feryanto ( +62 822-4214-1303 )
+                Harry Feryanto ( 0822-4214-1303 )
               </text>
+              <br />
+              <Icon name="whatsapp" size="big" color="yellow" />
+              <text className="" style={{ color: "white", fontSize: "20px" }}>Yanti ( 0813-2843-6692)</text>
             </div>
           </div>
         </Jumbotron>
