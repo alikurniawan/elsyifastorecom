@@ -46,7 +46,7 @@ class Products extends Component {
           KodeBarang: "MDS-BK01",
           NamaBarang: "Madu Hitam",
           Ukuran: "250 ml",
-          Harga: "Rp. 60,000,-",
+          Harga: "Rp. 65,000,-",
           Deskripsi: "Madu Hitam Sumbawa Botol Kecil",
         },
         {
@@ -54,7 +54,7 @@ class Products extends Component {
           KodeBarang: "MDS-BK02",
           NamaBarang: "Madu Putih",
           Ukuran: "250 ml",
-          Harga: "Rp. 60,000,-",
+          Harga: "Rp. 65,000,-",
           Deskripsi: "Madu Putih Sumbawa Botol Kecil",
         },
         {
@@ -62,7 +62,7 @@ class Products extends Component {
           KodeBarang: "MDS-BK03",
           NamaBarang: "Madu Manis",
           Ukuran: "250 ml",
-          Harga: "Rp. 60,000,-",
+          Harga: "Rp. 65,000,-",
           Deskripsi: "Madu Manis Sumbawa Botol Kecil",
         },
         {
