@@ -9,6 +9,10 @@ import mdsbk01 from "./Images/bk01.png";
 import mdsbk02 from "./Images/bk02.png";
 import mdsbk03 from "./Images/bk03.png";
 import mdsbb04 from "./Images/bb04.png";
+import skybx01 from "./Images/skyGoat1Cklt.png";
+import skybx02 from "./Images/skyGoat2Vnl.png";
+import sumacbk01 from "./Images/sumac1.png";
+import viniditeabb01 from "./Images/vinidiTea1.png";
 
 class Products extends Component {
   constructor(props) {
@@ -72,6 +76,38 @@ class Products extends Component {
           Ukuran: "760 ml",
           Harga: "Rp. 210,000,-",
           Deskripsi: "Madu Hutan Sumbawa Botol Besar",
+        },
+        {
+          Image: `${skybx01}`,
+          KodeBarang: "SKY-BX01",
+          NamaBarang: "Susu Kambing Rasa Coklat",
+          Ukuran: "- ml",
+          Harga: "Rp. ,-",
+          Deskripsi: "Susu Box Kecil Isi -",
+        },
+        {
+          Image: `${skybx02}`,
+          KodeBarang: "SKY-BX02",
+          NamaBarang: "Susu Kambing Rasa Vanila",
+          Ukuran: "- ml",
+          Harga: "Rp. ,-",
+          Deskripsi: "Susu Box Kecil Isi -",
+        },
+        {
+          Image: `${sumacbk01}`,
+          KodeBarang: "SMC-BK01",
+          NamaBarang: "Madu Herbal Sumac",
+          Ukuran: "215 gram",
+          Harga: "Rp. 125,000,-",
+          Deskripsi: "Madu Herbal Racikan Rempah Sumac",
+        },
+        {
+          Image: `${viniditeabb01}`,
+          KodeBarang: "OIL-VIN-BB01",
+          NamaBarang: "Message Oil",
+          Ukuran: "Netto 1 Liter",
+          Harga: "Rp. 100,000,-",
+          Deskripsi: "Message Oil Zaitun Deviti",
         },
       ],
     };
